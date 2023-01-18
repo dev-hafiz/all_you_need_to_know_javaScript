@@ -24,3 +24,5 @@ let array = [1,2,3,4,5];
 let func = function(){console.log('Hello')}
 
 ```
+### Reserved Words
+In JavaScript, a reserved word is a word that has a specific meaning and cannot be used as an identifier (such as a variable or function name) in the code. Examples of reserved words in JavaScript include "var", "function", "if", "else", "for", "while", and "return". These words are reserved by the language and cannot be used for any other purpose.
