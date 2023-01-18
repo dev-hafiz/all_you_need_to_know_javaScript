@@ -26,3 +26,17 @@ let func = function(){console.log('Hello')}
 ```
 ### Reserved Words
 In JavaScript, a reserved word is a word that has a specific meaning and cannot be used as an identifier (such as a variable or function name) in the code. Examples of reserved words in JavaScript include "var", "function", "if", "else", "for", "while", and "return". These words are reserved by the language and cannot be used for any other purpose.
+
+### Data Types
+There are two major data type present in JavaScript with sub categories
+
+1. Primitive
+    - Number
+    - String
+    - Boolean
+    - Null
+    - Undefined
+2. Object
+    - Array
+    - Object
+    - Function
