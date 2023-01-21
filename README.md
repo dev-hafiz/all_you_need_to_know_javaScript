@@ -76,8 +76,8 @@ console.log(!a); // false
 Null refers to an already assigned value whereas Undefined is a declared variable but its value does not assign yet
 
 ``` javascript
-    let studentObj = null;
-    let studentID;
+    let studentObj = null; //Null
+    let studentID; //Undefined
     console.log(studentObj);
     console.log(studentID);
 ```
