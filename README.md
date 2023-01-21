@@ -71,3 +71,13 @@ console.log(a && b); //false
 console.log(a || b); // true
 console.log(!a); // false
 ```
+
+### Null & Undefined
+Null refers to an already assigned value whereas Undefined is a declared variable but its value does not assign yet
+
+``` javascript
+    let studentObj = null;
+    let studentID;
+    console.log(studentObj);
+    console.log(studentID);
+```
