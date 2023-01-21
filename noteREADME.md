@@ -1,4 +1,4 @@
-# Read this article and BRUSHUP your concepts
+# ALL YOU NEED TO KNOW || JAVASCRIPT 
 ## Console
 Console is a built-in object that containe error messages or log data and help us to debug our codes.
 
