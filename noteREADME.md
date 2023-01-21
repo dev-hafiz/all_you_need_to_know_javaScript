@@ -40,3 +40,13 @@ There are two major data type present in JavaScript with sub categories
     - Array
     - Object
     - Function
+
+### String
+ A string is a sequence of characters enclosed in single or double quotes
+
+ ``` javascript
+let str = 'String';
+let str2 = "String";
+let str3 = `String`;
+let str4 = String(450);
+````
