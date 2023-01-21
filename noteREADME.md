@@ -50,3 +50,24 @@ let str2 = "String";
 let str3 = `String`;
 let str4 = String(450);
 ````
+
+### Boolean 
+A Boolean data type is a primitive data type that can have only two values: true or false. Boolean values are often used in conditional statements to check if a certain condition is true or false. For example, you might use a Boolean variable to check if a user is logged in or not.
+
+In JavaScript, you can create a Boolean variable by assigning the values true or false to it, or by using the Boolean() function to convert a non-Boolean value to a Boolean value.
+
+``` javascript
+let x = true;
+let y = false;
+let z = Boolean(1); // true
+```
+
+Boolean values are also used in logical operations such as && (and), || (or) and ! (not)
+
+``` javascript
+let a = true;
+let b = false;
+console.log(a && b); //false
+console.log(a || b); // true
+console.log(!a); // false
+```
