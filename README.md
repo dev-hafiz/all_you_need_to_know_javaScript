@@ -81,3 +81,8 @@ Null refers to an already assigned value whereas Undefined is a declared variabl
     console.log(studentObj);
     console.log(studentID);
 ```
+
+### Type Conversion
+Type conversion is the process of converting a value from one data type to another data type. For example, converting an integer to a string, or a float to an integer, etc. This is typically done to make sure that data is compatible for certain operations or to match the data type of other values in the same context.
+
+
