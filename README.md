@@ -105,3 +105,13 @@ let floatNumber = 29.66;
 console.log(floatNumber);
 console.log(parseInt(floatNumber));
 ````
+### Falsy Value 
+
+```javascripy
+false
+0 (zero)
+"" (empty string)
+null
+undefined
+NaN (Not-a-Number)
+```
