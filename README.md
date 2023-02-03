@@ -115,3 +115,114 @@ null
 undefined
 NaN (Not-a-Number)
 ```
+
+### Operators 
+Operators are symbols that perform specific operations on one or more operands (values or variables) to produce a result. In programming, they are used to manipulate data and variables, compare values, and control the flow of a program. Some common examples of operators include mathematical operators (+, -, *, /), comparison operators (>, <, >=, <=, ==, !=), and logical operators (&&, ||, !).
+
+
+#### Arithmetic operator (+ - * / % ++ --)
+Arithmetic operators are a type of operator used to perform mathematical operations such as addition, subtraction, multiplication, division, and modulus (finding the remainder). These operators are used to perform basic arithmetic calculations on numeric values (integers or floating-point numbers) and are a fundamental part of most programming languages. Examples of arithmetic operators in many programming languages include: 
+1. + (addition), 
+2. - (subtraction), 
+3. * (multiplication), 
+4. / (division), and 
+5. % (modulus)
+
+```javascript
+// Arithmetic Operators
+
+// 1. Addition(+)
+let firstNumber = 20;
+let secondNumber = 30;
+console.log(firstNumber + secondNumber); // + is a Addition sign
+
+// 2. Subtraction(-)
+let firstNumber = 20;
+let secondNumber = 30;
+console.log(firstNumber - secondNumber); // + is a Subtraction sign
+
+// 3. Multiplication(*)
+let firstNumber = 20;
+let secondNumber = 30;
+console.log(firstNumber * secondNumber); // + is a Multiplication 
+
+// 4. Division(/)
+let firstNumber = 20;
+let secondNumber = 30;
+console.log(firstNumber / secondNumber); // + is a Division sign
+
+// 5. Modulus(%)
+let firstNumber = 20;
+let secondNumber = 30;
+console.log(firstNumber % secondNumber); // + is a Modulus sign
+
+// Incremental(++)
+
+// Pre-Incremental
+let preIncNumber = 20;
+console.log(++incNumber);
+
+//Post-Incremental
+let postIncNumber = 20;
+console.log(incNumber++);
+
+// Decremental(--)
+
+// Pre-Decremental
+let preDecNumber = 20;
+console.log(--incNumber);
+
+//Post-Decremental
+let postDecNumber = 20;
+console.log(incNumber--);
+
+```
+### Assignment Operator
+An assignment operator is a type of operator that is used to assign a value to a variable in a programming language. The basic syntax of an assignment operator is typically variable = value, where variable is the name of the variable being assigned, and value is the value being assigned to the variable. The assignment operator takes the value on the right side of the operator and stores it in the variable on the left side. For example, the statement x = 10 would assign the value 10 to the variable x. The value of the expression on the right side of the assignment operator is calculated first, and then stored in the variable on the left side.
+
+
+```javascript
+// Assignment Operators
+// = += -= *= /= %=
+ let a = 30;
+ let b = 40;
+
+ a += b // a = a + b
+
+ a -= b // a = a - b
+
+ a *= b // a = a * b
+
+ a /= b // a = a / b
+
+ a %= b // a = a % b
+```
+
+### Comparison Operator
+A comparison operator is a symbol or operator used to compare values and determine if one value is greater than, less than, equal to, or not equal to another value. These operators return a boolean value (True or False) based on the comparison made between the values. Common comparison operators in programming languages include: >, <, >=, <=, ==, !=, ===, !==
+
+```javascript
+// Comparison Operator
+// (>, <, >=, <=, ==, !=, ===, !==)
+
+ let a = 20;
+ let b = 30;
+
+ console.log(a == b); // false
+ console.log(a != b); // true
+ console.log(a > b); // false
+ console.log(a < b); // true
+ console.log(a <= b); // true
+ console.log(a >= b); // false
+
+ let a = '50';
+ let b = 50;
+ console.log(a === b); //false
+ console.log(a !== b); // true
+```
+
+
+
+
+
+
