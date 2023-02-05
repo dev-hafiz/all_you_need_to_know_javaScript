@@ -281,6 +281,27 @@ if (age >= 18) {
 
 ```
 
+### Switch
+```javascript
+let day = 3;
+
+switch (day) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  default:
+    console.log("Other day");
+}
+```
+
+In this example, the switch statement tests the value of the variable day against multiple cases. If a case is found that matches the value of day, the code inside that case will be executed. The break statement is used to exit the switch statement once a match is found. If no match is found, the code inside the default case will be executed. In this case, the output will be "Wednesday".
+
 
 
 
