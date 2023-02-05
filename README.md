@@ -241,6 +241,34 @@ console.log(Math.round(Math.random() * 20 + 1));
 
 ```
 
+### Date object in Js
+
+```javascript
+let date = new Date();
+console.log(date.toDateString());
+console.log(date.toLocaleString());
+console.log(date.toString());
+
+console.log(date.getFullYear());
+console.log(date.getMonth());
+console.log(date.getDay());
+console.log(date.getDate());
+console.log(date.getHours());
+console.log(date.getMinutes());
+```
+
+### Condition
+Conditions in JavaScript allow you to control the flow of your code based on whether certain conditions are met. You can use conditional statements to execute different blocks of code depending on whether a certain condition is true or false.
+
+The most commonly used conditional statements in JavaScript are if, if-else, and switch.
+
+```javascript
+let age = 30;
+
+if (age >= 18) {
+  console.log("You are an adult.");
+}
+```
 
 
 
